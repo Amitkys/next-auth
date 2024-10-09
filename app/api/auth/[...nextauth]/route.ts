@@ -23,7 +23,7 @@ const handler = NextAuth({
 
         where: { email: user.email || "" },
       });
-      console.log(existingUser)
+    //   console.log(existingUser)
 
       if (!existingUser) {
         // If the user doesn't exist, create them in the database
